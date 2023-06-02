@@ -20,23 +20,73 @@ struct ContentView: View {
     )
     
     @State var userLocations: [UserLocation] = []
+    @State var totalLocations: [UserLocation] = []
     
     var body: some View {
         VStack {
+            //   Map(coordinateRegion: $region)
             Map(coordinateRegion: $region, annotationItems: userLocations) { location in
-                MapPin(coordinate: location.coordinate)
+                //MapMarker(coordinate: location.coordinate, tint: .red)
+                
+                MapAnnotation(coordinate: location.coordinate) {
+                    //                    Image("icon_red_dot")
+                    //                        .foregroundColor(.blue)
+                    //                        .frame(height: 0)
+                    Color.red.frame(width: 5, height: 5)
+                    
+                }
             }
         }
         .padding()
         .onAppear {
-            focusMapOnUserLocation()
+            generateCoordinator()
         }
     }
-
     
-    private func focusMapOnUserLocation() {
-        self.userLocations = [UserLocation(coordinate: region.center)]
+    
+    private func generateCoordinator() {
+        self.totalLocations = [UserLocation(coordinate: region.center)]
+        let delta = 0.0001
+        let totalIterations = 2000 // Total number of locations to add
+        let delay = 0.0 // Delay in seconds
+        
+        for i in 1...totalIterations {
+            // DispatchQueue.main.asyncAfter(deadline: .now() + Double(i) * delay) {
+            let previousLocation = self.totalLocations[i - 1].coordinate
+            if i < 200 || (i > 850 && i < 1100)  {
+                let newCoordinate = CLLocationCoordinate2D(
+                    latitude: previousLocation.latitude ,
+                    longitude: previousLocation.longitude + delta
+                )
+                let userLocation = UserLocation(coordinate: newCoordinate)
+                self.totalLocations.append(userLocation)
+            } else if (i < 400 || (i > 850 && i < 1300)) {
+                let newCoordinate = CLLocationCoordinate2D(
+                    latitude: previousLocation.latitude + delta,
+                    longitude: previousLocation.longitude
+                )
+                let userLocation = UserLocation(coordinate: newCoordinate)
+                self.totalLocations.append(userLocation)
+            } else if i < 600 || (i > 850 && i < 1500){
+                let newCoordinate = CLLocationCoordinate2D(
+                    latitude: previousLocation.latitude ,
+                    longitude: previousLocation.longitude - delta
+                )
+                let userLocation = UserLocation(coordinate: newCoordinate)
+                self.totalLocations.append(userLocation)
+            } else {
+                let newCoordinate = CLLocationCoordinate2D(
+                    latitude: previousLocation.latitude - delta,
+                    longitude: previousLocation.longitude
+                )
+                let userLocation = UserLocation(coordinate: newCoordinate)
+                self.totalLocations.append(userLocation)
+            }
+            
+        }
+        userLocations = totalLocations
     }
+    
 }
 
 struct ContentView_Previews: PreviewProvider {
