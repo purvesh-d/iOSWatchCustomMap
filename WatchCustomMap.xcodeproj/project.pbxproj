@@ -1,0 +1,1027 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E614204E2A28A51D00F57D1B /* WatchCustomMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E614204D2A28A51D00F57D1B /* WatchCustomMapApp.swift */; };
+		E61420502A28A51D00F57D1B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E614204F2A28A51D00F57D1B /* ContentView.swift */; };
+		E61420522A28A51F00F57D1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E61420512A28A51F00F57D1B /* Assets.xcassets */; };
+		E61420552A28A51F00F57D1B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E61420542A28A51F00F57D1B /* Preview Assets.xcassets */; };
+		E614205F2A28A51F00F57D1B /* WatchCustomMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E614205E2A28A51F00F57D1B /* WatchCustomMapTests.swift */; };
+		E61420692A28A51F00F57D1B /* WatchCustomMapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61420682A28A51F00F57D1B /* WatchCustomMapUITests.swift */; };
+		E614206B2A28A51F00F57D1B /* WatchCustomMapUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E614206A2A28A51F00F57D1B /* WatchCustomMapUITestsLaunchTests.swift */; };
+		E61420712A28A51F00F57D1B /* WatchCustomMap Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = E61420702A28A51F00F57D1B /* WatchCustomMap Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		E61420762A28A51F00F57D1B /* WatchCustomMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61420752A28A51F00F57D1B /* WatchCustomMapApp.swift */; };
+		E61420782A28A51F00F57D1B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61420772A28A51F00F57D1B /* ContentView.swift */; };
+		E614207A2A28A52000F57D1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E61420792A28A52000F57D1B /* Assets.xcassets */; };
+		E614207D2A28A52000F57D1B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E614207C2A28A52000F57D1B /* Preview Assets.xcassets */; };
+		E61420872A28A52000F57D1B /* WatchCustomMap_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61420862A28A52000F57D1B /* WatchCustomMap_Watch_AppTests.swift */; };
+		E61420912A28A52000F57D1B /* WatchCustomMap_Watch_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61420902A28A52000F57D1B /* WatchCustomMap_Watch_AppUITests.swift */; };
+		E61420932A28A52000F57D1B /* WatchCustomMap_Watch_AppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E61420922A28A52000F57D1B /* WatchCustomMap_Watch_AppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E614205B2A28A51F00F57D1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E61420422A28A51C00F57D1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E61420492A28A51D00F57D1B;
+			remoteInfo = WatchCustomMap;
+		};
+		E61420652A28A51F00F57D1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E61420422A28A51C00F57D1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E61420492A28A51D00F57D1B;
+			remoteInfo = WatchCustomMap;
+		};
+		E61420722A28A51F00F57D1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E61420422A28A51C00F57D1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E614206F2A28A51F00F57D1B;
+			remoteInfo = "WatchCustomMap Watch App";
+		};
+		E61420832A28A52000F57D1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E61420422A28A51C00F57D1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E614206F2A28A51F00F57D1B;
+			remoteInfo = "WatchCustomMap Watch App";
+		};
+		E614208D2A28A52000F57D1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E61420422A28A51C00F57D1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E614206F2A28A51F00F57D1B;
+			remoteInfo = "WatchCustomMap Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E61420992A28A52000F57D1B /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				E61420712A28A51F00F57D1B /* WatchCustomMap Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		E614204A2A28A51D00F57D1B /* WatchCustomMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchCustomMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E614204D2A28A51D00F57D1B /* WatchCustomMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchCustomMapApp.swift; sourceTree = "<group>"; };
+		E614204F2A28A51D00F57D1B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E61420512A28A51F00F57D1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E61420542A28A51F00F57D1B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E614205A2A28A51F00F57D1B /* WatchCustomMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchCustomMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E614205E2A28A51F00F57D1B /* WatchCustomMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchCustomMapTests.swift; sourceTree = "<group>"; };
+		E61420642A28A51F00F57D1B /* WatchCustomMapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WatchCustomMapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E61420682A28A51F00F57D1B /* WatchCustomMapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchCustomMapUITests.swift; sourceTree = "<group>"; };
+		E614206A2A28A51F00F57D1B /* WatchCustomMapUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchCustomMapUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E61420702A28A51F00F57D1B /* WatchCustomMap Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WatchCustomMap Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E61420752A28A51F00F57D1B /* WatchCustomMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchCustomMapApp.swift; sourceTree = "<group>"; };
+		E61420772A28A51F00F57D1B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E61420792A28A52000F57D1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E614207C2A28A52000F57D1B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E61420822A28A52000F57D1B /* WatchCustomMap Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WatchCustomMap Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E61420862A28A52000F57D1B /* WatchCustomMap_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchCustomMap_Watch_AppTests.swift; sourceTree = "<group>"; };
+		E614208C2A28A52000F57D1B /* WatchCustomMap Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WatchCustomMap Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E61420902A28A52000F57D1B /* WatchCustomMap_Watch_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchCustomMap_Watch_AppUITests.swift; sourceTree = "<group>"; };
+		E61420922A28A52000F57D1B /* WatchCustomMap_Watch_AppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchCustomMap_Watch_AppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E61420A92A28D5CC00F57D1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E61420472A28A51D00F57D1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E61420572A28A51F00F57D1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E61420612A28A51F00F57D1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E614206D2A28A51F00F57D1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E614207F2A28A52000F57D1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E61420892A28A52000F57D1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E61420412A28A51C00F57D1B = {
+			isa = PBXGroup;
+			children = (
+				E614204C2A28A51D00F57D1B /* WatchCustomMap */,
+				E614205D2A28A51F00F57D1B /* WatchCustomMapTests */,
+				E61420672A28A51F00F57D1B /* WatchCustomMapUITests */,
+				E61420742A28A51F00F57D1B /* WatchCustomMap Watch App */,
+				E61420852A28A52000F57D1B /* WatchCustomMap Watch AppTests */,
+				E614208F2A28A52000F57D1B /* WatchCustomMap Watch AppUITests */,
+				E614204B2A28A51D00F57D1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E614204B2A28A51D00F57D1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E614204A2A28A51D00F57D1B /* WatchCustomMap.app */,
+				E614205A2A28A51F00F57D1B /* WatchCustomMapTests.xctest */,
+				E61420642A28A51F00F57D1B /* WatchCustomMapUITests.xctest */,
+				E61420702A28A51F00F57D1B /* WatchCustomMap Watch App.app */,
+				E61420822A28A52000F57D1B /* WatchCustomMap Watch AppTests.xctest */,
+				E614208C2A28A52000F57D1B /* WatchCustomMap Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E614204C2A28A51D00F57D1B /* WatchCustomMap */ = {
+			isa = PBXGroup;
+			children = (
+				E61420A92A28D5CC00F57D1B /* Info.plist */,
+				E614204D2A28A51D00F57D1B /* WatchCustomMapApp.swift */,
+				E614204F2A28A51D00F57D1B /* ContentView.swift */,
+				E61420512A28A51F00F57D1B /* Assets.xcassets */,
+				E61420532A28A51F00F57D1B /* Preview Content */,
+			);
+			path = WatchCustomMap;
+			sourceTree = "<group>";
+		};
+		E61420532A28A51F00F57D1B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E61420542A28A51F00F57D1B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E614205D2A28A51F00F57D1B /* WatchCustomMapTests */ = {
+			isa = PBXGroup;
+			children = (
+				E614205E2A28A51F00F57D1B /* WatchCustomMapTests.swift */,
+			);
+			path = WatchCustomMapTests;
+			sourceTree = "<group>";
+		};
+		E61420672A28A51F00F57D1B /* WatchCustomMapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E61420682A28A51F00F57D1B /* WatchCustomMapUITests.swift */,
+				E614206A2A28A51F00F57D1B /* WatchCustomMapUITestsLaunchTests.swift */,
+			);
+			path = WatchCustomMapUITests;
+			sourceTree = "<group>";
+		};
+		E61420742A28A51F00F57D1B /* WatchCustomMap Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				E61420752A28A51F00F57D1B /* WatchCustomMapApp.swift */,
+				E61420772A28A51F00F57D1B /* ContentView.swift */,
+				E61420792A28A52000F57D1B /* Assets.xcassets */,
+				E614207B2A28A52000F57D1B /* Preview Content */,
+			);
+			path = "WatchCustomMap Watch App";
+			sourceTree = "<group>";
+		};
+		E614207B2A28A52000F57D1B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E614207C2A28A52000F57D1B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E61420852A28A52000F57D1B /* WatchCustomMap Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				E61420862A28A52000F57D1B /* WatchCustomMap_Watch_AppTests.swift */,
+			);
+			path = "WatchCustomMap Watch AppTests";
+			sourceTree = "<group>";
+		};
+		E614208F2A28A52000F57D1B /* WatchCustomMap Watch AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E61420902A28A52000F57D1B /* WatchCustomMap_Watch_AppUITests.swift */,
+				E61420922A28A52000F57D1B /* WatchCustomMap_Watch_AppUITestsLaunchTests.swift */,
+			);
+			path = "WatchCustomMap Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E61420492A28A51D00F57D1B /* WatchCustomMap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E614209A2A28A52000F57D1B /* Build configuration list for PBXNativeTarget "WatchCustomMap" */;
+			buildPhases = (
+				E61420462A28A51D00F57D1B /* Sources */,
+				E61420472A28A51D00F57D1B /* Frameworks */,
+				E61420482A28A51D00F57D1B /* Resources */,
+				E61420992A28A52000F57D1B /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E61420732A28A51F00F57D1B /* PBXTargetDependency */,
+			);
+			name = WatchCustomMap;
+			productName = WatchCustomMap;
+			productReference = E614204A2A28A51D00F57D1B /* WatchCustomMap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E61420592A28A51F00F57D1B /* WatchCustomMapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E614209D2A28A52000F57D1B /* Build configuration list for PBXNativeTarget "WatchCustomMapTests" */;
+			buildPhases = (
+				E61420562A28A51F00F57D1B /* Sources */,
+				E61420572A28A51F00F57D1B /* Frameworks */,
+				E61420582A28A51F00F57D1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E614205C2A28A51F00F57D1B /* PBXTargetDependency */,
+			);
+			name = WatchCustomMapTests;
+			productName = WatchCustomMapTests;
+			productReference = E614205A2A28A51F00F57D1B /* WatchCustomMapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E61420632A28A51F00F57D1B /* WatchCustomMapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E61420A02A28A52000F57D1B /* Build configuration list for PBXNativeTarget "WatchCustomMapUITests" */;
+			buildPhases = (
+				E61420602A28A51F00F57D1B /* Sources */,
+				E61420612A28A51F00F57D1B /* Frameworks */,
+				E61420622A28A51F00F57D1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E61420662A28A51F00F57D1B /* PBXTargetDependency */,
+			);
+			name = WatchCustomMapUITests;
+			productName = WatchCustomMapUITests;
+			productReference = E61420642A28A51F00F57D1B /* WatchCustomMapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		E614206F2A28A51F00F57D1B /* WatchCustomMap Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E61420962A28A52000F57D1B /* Build configuration list for PBXNativeTarget "WatchCustomMap Watch App" */;
+			buildPhases = (
+				E614206C2A28A51F00F57D1B /* Sources */,
+				E614206D2A28A51F00F57D1B /* Frameworks */,
+				E614206E2A28A51F00F57D1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WatchCustomMap Watch App";
+			productName = "WatchCustomMap Watch App";
+			productReference = E61420702A28A51F00F57D1B /* WatchCustomMap Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E61420812A28A52000F57D1B /* WatchCustomMap Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E61420A32A28A52000F57D1B /* Build configuration list for PBXNativeTarget "WatchCustomMap Watch AppTests" */;
+			buildPhases = (
+				E614207E2A28A52000F57D1B /* Sources */,
+				E614207F2A28A52000F57D1B /* Frameworks */,
+				E61420802A28A52000F57D1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E61420842A28A52000F57D1B /* PBXTargetDependency */,
+			);
+			name = "WatchCustomMap Watch AppTests";
+			productName = "WatchCustomMap Watch AppTests";
+			productReference = E61420822A28A52000F57D1B /* WatchCustomMap Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E614208B2A28A52000F57D1B /* WatchCustomMap Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E61420A62A28A52000F57D1B /* Build configuration list for PBXNativeTarget "WatchCustomMap Watch AppUITests" */;
+			buildPhases = (
+				E61420882A28A52000F57D1B /* Sources */,
+				E61420892A28A52000F57D1B /* Frameworks */,
+				E614208A2A28A52000F57D1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E614208E2A28A52000F57D1B /* PBXTargetDependency */,
+			);
+			name = "WatchCustomMap Watch AppUITests";
+			productName = "WatchCustomMap Watch AppUITests";
+			productReference = E614208C2A28A52000F57D1B /* WatchCustomMap Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E61420422A28A51C00F57D1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					E61420492A28A51D00F57D1B = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					E61420592A28A51F00F57D1B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = E61420492A28A51D00F57D1B;
+					};
+					E61420632A28A51F00F57D1B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = E61420492A28A51D00F57D1B;
+					};
+					E614206F2A28A51F00F57D1B = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					E61420812A28A52000F57D1B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = E614206F2A28A51F00F57D1B;
+					};
+					E614208B2A28A52000F57D1B = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = E614206F2A28A51F00F57D1B;
+					};
+				};
+			};
+			buildConfigurationList = E61420452A28A51C00F57D1B /* Build configuration list for PBXProject "WatchCustomMap" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E61420412A28A51C00F57D1B;
+			productRefGroup = E614204B2A28A51D00F57D1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E61420492A28A51D00F57D1B /* WatchCustomMap */,
+				E61420592A28A51F00F57D1B /* WatchCustomMapTests */,
+				E61420632A28A51F00F57D1B /* WatchCustomMapUITests */,
+				E614206F2A28A51F00F57D1B /* WatchCustomMap Watch App */,
+				E61420812A28A52000F57D1B /* WatchCustomMap Watch AppTests */,
+				E614208B2A28A52000F57D1B /* WatchCustomMap Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E61420482A28A51D00F57D1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E61420552A28A51F00F57D1B /* Preview Assets.xcassets in Resources */,
+				E61420522A28A51F00F57D1B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E61420582A28A51F00F57D1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E61420622A28A51F00F57D1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E614206E2A28A51F00F57D1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E614207D2A28A52000F57D1B /* Preview Assets.xcassets in Resources */,
+				E614207A2A28A52000F57D1B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E61420802A28A52000F57D1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E614208A2A28A52000F57D1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E61420462A28A51D00F57D1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E61420502A28A51D00F57D1B /* ContentView.swift in Sources */,
+				E614204E2A28A51D00F57D1B /* WatchCustomMapApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E61420562A28A51F00F57D1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E614205F2A28A51F00F57D1B /* WatchCustomMapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E61420602A28A51F00F57D1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E614206B2A28A51F00F57D1B /* WatchCustomMapUITestsLaunchTests.swift in Sources */,
+				E61420692A28A51F00F57D1B /* WatchCustomMapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E614206C2A28A51F00F57D1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E61420782A28A51F00F57D1B /* ContentView.swift in Sources */,
+				E61420762A28A51F00F57D1B /* WatchCustomMapApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E614207E2A28A52000F57D1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E61420872A28A52000F57D1B /* WatchCustomMap_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E61420882A28A52000F57D1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E61420932A28A52000F57D1B /* WatchCustomMap_Watch_AppUITestsLaunchTests.swift in Sources */,
+				E61420912A28A52000F57D1B /* WatchCustomMap_Watch_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E614205C2A28A51F00F57D1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E61420492A28A51D00F57D1B /* WatchCustomMap */;
+			targetProxy = E614205B2A28A51F00F57D1B /* PBXContainerItemProxy */;
+		};
+		E61420662A28A51F00F57D1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E61420492A28A51D00F57D1B /* WatchCustomMap */;
+			targetProxy = E61420652A28A51F00F57D1B /* PBXContainerItemProxy */;
+		};
+		E61420732A28A51F00F57D1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E614206F2A28A51F00F57D1B /* WatchCustomMap Watch App */;
+			targetProxy = E61420722A28A51F00F57D1B /* PBXContainerItemProxy */;
+		};
+		E61420842A28A52000F57D1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E614206F2A28A51F00F57D1B /* WatchCustomMap Watch App */;
+			targetProxy = E61420832A28A52000F57D1B /* PBXContainerItemProxy */;
+		};
+		E614208E2A28A52000F57D1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E614206F2A28A51F00F57D1B /* WatchCustomMap Watch App */;
+			targetProxy = E614208D2A28A52000F57D1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		E61420942A28A52000F57D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E61420952A28A52000F57D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		E61420972A28A52000F57D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchCustomMap Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = K7XJG666ZW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchCustomMap;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.simform.watch.custommap.WatchCustomMap;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simform.watch.custommap.WatchCustomMap.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		E61420982A28A52000F57D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchCustomMap Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = K7XJG666ZW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchCustomMap;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.simform.watch.custommap.WatchCustomMap;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simform.watch.custommap.WatchCustomMap.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		E614209B2A28A52000F57D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchCustomMap/Preview Content\"";
+				DEVELOPMENT_TEAM = K7XJG666ZW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WatchCustomMap/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchCustomMap;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = NSLocationWhenInUseUsageDescription;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simform.watch.custommap.WatchCustomMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E614209C2A28A52000F57D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WatchCustomMap/Preview Content\"";
+				DEVELOPMENT_TEAM = K7XJG666ZW;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WatchCustomMap/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WatchCustomMap;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = NSLocationWhenInUseUsageDescription;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simform.watch.custommap.WatchCustomMap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E614209E2A28A52000F57D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K7XJG666ZW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simform.watch.custommap.WatchCustomMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchCustomMap.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WatchCustomMap";
+			};
+			name = Debug;
+		};
+		E614209F2A28A52000F57D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K7XJG666ZW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simform.watch.custommap.WatchCustomMapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchCustomMap.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WatchCustomMap";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E61420A12A28A52000F57D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K7XJG666ZW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simform.watch.custommap.WatchCustomMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WatchCustomMap;
+			};
+			name = Debug;
+		};
+		E61420A22A28A52000F57D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K7XJG666ZW;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.simform.watch.custommap.WatchCustomMapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WatchCustomMap;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E61420A42A28A52000F57D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K7XJG666ZW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simform.watch.custommap.WatchCustomMap-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchCustomMap Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WatchCustomMap Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		E61420A52A28A52000F57D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K7XJG666ZW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simform.watch.custommap.WatchCustomMap-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WatchCustomMap Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WatchCustomMap Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		E61420A72A28A52000F57D1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K7XJG666ZW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simform.watch.custommap.WatchCustomMap-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "WatchCustomMap Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		E61420A82A28A52000F57D1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = K7XJG666ZW;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.simform.watch.custommap.WatchCustomMap-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "WatchCustomMap Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E61420452A28A51C00F57D1B /* Build configuration list for PBXProject "WatchCustomMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E61420942A28A52000F57D1B /* Debug */,
+				E61420952A28A52000F57D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E61420962A28A52000F57D1B /* Build configuration list for PBXNativeTarget "WatchCustomMap Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E61420972A28A52000F57D1B /* Debug */,
+				E61420982A28A52000F57D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E614209A2A28A52000F57D1B /* Build configuration list for PBXNativeTarget "WatchCustomMap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E614209B2A28A52000F57D1B /* Debug */,
+				E614209C2A28A52000F57D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E614209D2A28A52000F57D1B /* Build configuration list for PBXNativeTarget "WatchCustomMapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E614209E2A28A52000F57D1B /* Debug */,
+				E614209F2A28A52000F57D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E61420A02A28A52000F57D1B /* Build configuration list for PBXNativeTarget "WatchCustomMapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E61420A12A28A52000F57D1B /* Debug */,
+				E61420A22A28A52000F57D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E61420A32A28A52000F57D1B /* Build configuration list for PBXNativeTarget "WatchCustomMap Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E61420A42A28A52000F57D1B /* Debug */,
+				E61420A52A28A52000F57D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E61420A62A28A52000F57D1B /* Build configuration list for PBXNativeTarget "WatchCustomMap Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E61420A72A28A52000F57D1B /* Debug */,
+				E61420A82A28A52000F57D1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E61420422A28A51C00F57D1B /* Project object */;
+}
